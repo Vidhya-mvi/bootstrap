@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  --main-background-color: #E9EDF2;
+  --main-para-color: #2B3674;
+}
+
+body {
+  margin: 0;
+  background-color: var(--main-background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700px;
+  font-size: 14px;
+}
+
+p {
+  font-weight: 500px;
+  color: #8F9BBA;
+  font-size: 12px;
+  margin: 1;
+}
+
+.form {
+  border-radius: 22px;
+}
+
+.container {
+  border-radius: 22px;
+}
+
+.card-body {
+  border: 0px;
+}
+
+.card {
+  align-items: center;
+  border: 1px dashed;
+  background-color: #FAFCFE;
+  border-radius: 13px;
+}
+
+h3 {
+  font-size: 24px;
+  color: var(--main-para-color);
+}
+
+.sample {
+  background-color: #FDF4D1;
+  border: 1px solid #FBE7A5;
+  border-radius: 12px;
+}
+
+.value {
+  border: 1px solid #B6BBC7;
+  padding: 3px;
+  border-radius: 16px;
+  color: var(--main-para-color);
+  font-weight: 500;
+  font-size: 10px;
+}
+.form-control.form-control{
+  font-size: 10px;
+}
+.form-control.form-control.for {
+ height: 191px;
+}
+.form-select{
+  font-size: 10px;
+}
+.last {
+  text-align: end;
+  margin: 20px 0px 0px 0px;
+}
+
+.final {
+  border-radius: 22px;
+  padding: 16px 10px;
+}
+.check {
+  white-space: nowrap;
+}
