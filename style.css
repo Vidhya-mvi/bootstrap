@@ -182,7 +182,7 @@ label.form_label.label_label {
 
 .edit {
   max-width: 75px;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 @media screen and (max-width:760px) {
