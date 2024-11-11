@@ -5,9 +5,9 @@
 
 
 :root {
-  --btn-bg:#FAF9FF;
-  --dash:#E6E8EB;
-  --normal-color:#fff;
+  --btn-bg: #FAF9FF;
+  --dash: #E6E8EB;
+  --normal-color: #fff;
   --text-primary: #4318FF;
   --text-secondery: #B6BBC7;
   --secondery: #2B3674;
@@ -15,22 +15,22 @@
   --alert-bg: #FDF4D1;
   --color-star: #FF1818;
   --bg-color: #FFFFFF;
-  --bg:#E9EDF2;
-  --border:#B2BAD0;
-  --border-bg:#FAFCFE:
-
+  --bg: #E9EDF2;
+  --border: #B2BAD0;
+  --border-bg: #FAFCFE:
 }
 
 body {
   font-family: "DM Sans", sans-serif !important;
   background-color: var(--bg);
 }
+
 h3 {
   color: var(--secondery);
-font-size: 24px;
-font-weight: 700;
-line-height: 32px;
-letter-spacing: -0.02em;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
 
 
 }
@@ -39,9 +39,11 @@ letter-spacing: -0.02em;
   content: ' *';
   color: var(--color-star);
 }
+
 .card {
   border-radius: 25px;
 }
+
 .label_label::after {
   content: ' *';
   color: var(--color-star);
@@ -94,10 +96,12 @@ label {
   font-weight: 500;
   color: var(--text-secondery);
 }
+
 label.form_label.label_label {
 
   width: 95px;
 }
+
 .form-select:focus {
   box-shadow: none;
   border: 2px solid var(--text-primary);
@@ -127,18 +131,18 @@ label.form_label.label_label {
 }
 
 .form-check-input:checked {
-  
+
   border-color: var(--text-primary);
   box-shadow: none;
   background-color: var(--text-primary);
- 
+
 
 }
 
 .alert h6 {
   font-size: 16px;
   font-weight: 500;
-  color:var(--alert-color);
+  color: var(--alert-color);
 }
 
 .alert p {
@@ -165,12 +169,14 @@ label.form_label.label_label {
   background-color: var(--text-primary);
   color: var(--normal-color);
 }
-.btn_outline{
+
+.btn_outline {
   border-radius: 20px;
   background-color: var(--btn-bg);
   color: var(--secondery);
 }
-.btn_bg:hover{
+
+.btn_bg:hover {
   background-color: var(--secondery);
 }
 
@@ -178,36 +184,16 @@ label.form_label.label_label {
   max-width: 75px;
   font-size: 13px;
 }
+
 @media screen and (max-width:760px) {
 
   .form {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
+
   .card {
-      width: 100% !important;
+    width: 100% !important;
   }
 }
 
-@media screen and (max-width:576px) {
-
-  .form {
-      display: flex;
-      flex-direction: column;
-
-  }
-  .card {
-      width: 100% !important;
-  }
-  .display_flex {
-      display: flex ;
-      margin-top: 30px;
-  }
-  ::placeholder {
-      font-size: 12px;
-  }
-  .form-select {
-      font-size: 12px;  
-  }
-  
-}
